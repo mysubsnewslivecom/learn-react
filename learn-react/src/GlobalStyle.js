@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
     :root {
         --maxWidth: 1280px;
-        --white: #ffffff
+        --white: #fff
         --lightGrey: #eeeeee;
         --medGrey: #353535;
         --darkGrey: #1c1c1c;
@@ -14,11 +14,14 @@ export const GlobalStyle = createGlobalStyle`
     }
     * {
         box-sizing: border-box;
-        font-family: 'Abel', sans-serif;
+        font-family: 'Abel', sans-serif; //, 'Courier New', Courier,  'Oxygen', 'Ubuntu', 'Droid Sans';
     }
     body {
         margin: 0;
         padding:0 ;
+//        -webkit-font-smoothing: antialiased;
+//        -moz-osx-font-smoothing: grayscale;
+
 
         h1 {
             font-size: 1rem;
