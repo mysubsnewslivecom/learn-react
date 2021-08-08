@@ -2,7 +2,7 @@ import React from "react";
 
 // Styles
 
-import { Wrapper, Content } from './Grid.styles';
+import { Wrapper, Content } from "./Grid.styles";
 
 const Grid = ({ header, children }) => (
   <Wrapper>
@@ -12,5 +12,3 @@ const Grid = ({ header, children }) => (
 );
 
 export default Grid;
-
-
